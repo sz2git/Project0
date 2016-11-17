@@ -13,5 +13,44 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/button1"
+        android:id="@+id/button1"
+        android:layout_below="@id/textView"
+        android:onClick="sendMessageButton1" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/button2"
+        android:id="@+id/button2"
+        android:layout_below="@id/button1" />
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/button3"
+        android:id="@+id/button3"
+        android:layout_below="@id/button2" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/button4"
+        android:id="@+id/button4"
+        android:layout_below="@id/button3" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/button5"
+        android:id="@+id/button5"
+        android:layout_below="@id/button4" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/button6"
+        android:id="@+id/button6"
+        android:layout_below="@id/button5" />
+
 </RelativeLayout>
